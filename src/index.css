@@ -1,0 +1,20 @@
+.patela-cores {
+    color: #001219;
+    color: #005f73;
+    color: #0a9396;
+    color: #94d2bd;
+    color: #e9d8a6;
+    color: #ee9b00;
+    color: #ca6702;
+    color: #bb3e03;
+    color: #ae2012;
+    color: #9b2226;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body, #root {
+    height: 100%;
+}

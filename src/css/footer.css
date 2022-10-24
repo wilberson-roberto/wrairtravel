@@ -1,0 +1,66 @@
+.patela-cores {
+    color: #001219;
+    color: #005f73;
+    color: #0a9396;
+    color: #94d2bd;
+    color: #e9d8a6;
+    color: #ffffff;
+    color: #ee9b00;
+    color: #ca6702;
+    color: #bb3e03;
+    color: #ae2012;
+    color: #9b2226;
+}
+
+#footer {
+    background-color: #001219;
+    color: #ffffff;
+}
+
+#footer img {
+    width: 30%;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+#font-logo-footer {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 2rem;
+}
+
+#footer .nav-link {
+    color: #ee9b00;
+    margin-top: 20px;
+}
+
+#footer .nav-link:hover {
+    color: #e9d8a6;
+}
+
+#footer nav a {
+    text-decoration: none;
+    padding: 2%;
+    color: #ffffff;
+}
+
+#footer nav a:hover {
+    color: #0a9396;
+}
+
+#social a {
+    color: #ee9b00;
+}
+
+#social a:hover {
+    color: #94d2bd;
+}
+
+#social h5 {
+    font-size: 1rem;
+}

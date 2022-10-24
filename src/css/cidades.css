@@ -1,0 +1,51 @@
+.patela-cores {
+    color: #001219;
+    color: #005f73;
+    color: #0a9396;
+    color: #94d2bd;
+    color: #e9d8a6;
+    color: #ffffff;
+    color: #ee9b00;
+    color: #ca6702;
+    color: #bb3e03;
+    color: #ae2012;
+    color: #9b2226;
+}
+
+.caixa {
+    background-color: #e9d8a6;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.caixa h3 {
+    background-color: #9b2226;
+    color: #ffffff;
+}
+
+.textDestino {
+    font-size: 0.9rem;
+}
+
+.precoDestino {
+    display: inline;
+    
+}
+
+.caixa span {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9b2226;
+}
+
+.caixa .btn.btn-primary {
+    margin: 5px 20px 10px;
+    background-color: #005f73;
+    border: none;
+}
+
+.caixa .btn.btn-primary:hover {
+    background-color: #0a9396;
+}
