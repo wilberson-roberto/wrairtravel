@@ -5,11 +5,9 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 import '../css/contaCadastro.css'
-import { IMaskInput } from "react-imask";
 import { Container } from 'react-bootstrap';
 
 export default function LoginForm() {
-    const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
         const form = event.currentTarget;
@@ -33,6 +31,7 @@ export default function LoginForm() {
                                 placeholder="exemplo@empresa.com"
                                 aria-describedby="inputGroupPrepend"
                                 required
+                                name='email'
                             />
                             <Form.Control.Feedback type="invalid">
                                 Por favor insira um email válido.
@@ -48,6 +47,7 @@ export default function LoginForm() {
                                 type="password"
                                 aria-describedby="inputGroupPrepend"
                                 required
+                                name='password'
                             />
                             <Form.Control.Feedback type="invalid">
                                 Senha inválida.
