@@ -9,6 +9,7 @@ import Conta from './pages/Conta';
 import Footer from './components/Footer';
 import Menu from './components/Menu';
 import Add from './components/Add';
+import Edit from './components/Edit';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/contato' element={<Contato />} />
           <Route exact path='/conta' element={<Conta />} />
           <Route path='/create' element={<Add />} />
+          <Route path='/edit' element={<Edit />} />
         </Routes>
       </Router>
       <Footer />

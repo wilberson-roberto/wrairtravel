@@ -7,6 +7,12 @@ import { Link, useNavigate } from 'react-router-dom'
 export default function CRUD() {
     let history = useNavigate();
 
+    const handleEdit = (id, local, valor) => {
+        localStorage.setItem('local', local);
+        localStorage.setItem('valor', valor);
+        localStorage.setItem('id', id);
+    }
+
     const handleDelete = (id) => {
         var index = Banco.map(function (e) {
             return e.id
@@ -39,7 +45,7 @@ export default function CRUD() {
                                             <Link to={'/edit'}>
                                                 <Button
                                                     onClick={() =>
-                                                        alert(item.id)}>
+                                                        handleEdit(item.id, item.local, item.valor)}>
                                                     Editar
                                                 </Button>
                                             </Link>
