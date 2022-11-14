@@ -3,6 +3,8 @@ import { Nav, Navbar } from 'react-bootstrap'
 import { BsPerson } from 'react-icons/bs'
 import logo from '../img/logo.png'
 import '../css/menu.css'
+import LoginButton from './LoginButton'
+import LogoutButton from './LogoutButton'
 
 
 function Menu() {
@@ -21,10 +23,12 @@ function Menu() {
           <Nav.Link href='/destino'>Destino</Nav.Link>
           <Nav.Link href='/promocoes'>Promoções</Nav.Link>
           <Nav.Link href='/contato' className="me-5">Contato</Nav.Link>
-          <Nav.Link href='/conta' className="me-3" id='icon-conta'>
+          <Nav.Link href='/conta' className="" id='icon-conta'>
             <BsPerson fontSize={30} />
-            Conta
+            <LoginButton />
+            <LogoutButton />
           </Nav.Link>
+          <Nav.Link href='/conta' className="me-2">Minha Conta</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -8,7 +8,7 @@ import Contato from './pages/Contato';
 import Conta from './pages/Conta';
 import Footer from './components/Footer';
 import Menu from './components/Menu';
-import CadastroForm from '../src/components/CadastroForm'
+import Add from './components/Add';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route exact path='/promocoes' element={<Promocoes />} />
           <Route exact path='/contato' element={<Contato />} />
           <Route exact path='/conta' element={<Conta />} />
-          <Route exact path='/CadastroForm' element={<CadastroForm />} />
+          <Route path='/create' element={<Add />} />
         </Routes>
       </Router>
       <Footer />

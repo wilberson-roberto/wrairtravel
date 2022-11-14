@@ -41,6 +41,7 @@
 
 .navbar .nav-link {
     color: #94d2bd;
+    line-height: 2.5rem;
 }
 
 .navbar .nav-link:hover {
