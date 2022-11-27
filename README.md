@@ -1,22 +1,25 @@
+### Tecnologias desenvolvidas:
+
+* HTML :heavy_check_mark:
+* CSS :heavy_check_mark:
+* Bootstrap :heavy_check_mark:
+* JavaScript :heavy_check_mark:
+* React :heavy_check_mark:
+* React Router :heavy_check_mark:
+* Auth0 (Sistema de login) :heavy_check_mark:
+* Hooks :warning: - Em desenvolvimento
+* Java (banco de dados) :warning: - Em desenvolvimento
+* TypeScript (modelo) :warning: - Em desenvolvimento
+* API em C# :warning: - Em desenvolvimento
+* React Native - Consulta mobile :warning: - Em desenvolvimento
+* MySQL e NoSQL :warning: - Em desenvolvimento
+* Java Spring Security (sistema de login) :warning: - Em desenvolvimento
 
 
-### `npm run build` fails to minify
+### imagens com atribuição:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### `Logo:` fails to minify
-
-Imagem de <a href="https://br.freepik.com/vetores-gratis/logotipo-de-viagem-minimalista-criativa_9260436.htm#page=4&query=Travel%20logo&position=39&from_view=search">Freepik</a>
-
-### `imagens com atribuição:` fails to minify
-
-<a href="https://unsplash.com/photos/N4DbvTUDikw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Unsplash</a>
-<a href="https://unsplash.com/photos/h-UU2PnN5a0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Unsplash</a>
-<a href="https://unsplash.com/photos/6OUfJlD_vmQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Unsplash</a>
-<a href="https://storyset.com/work">Work illustrations by Storyset</a>
 <a href="">Unsplash</a>
-<a href="">Unsplash</a>
 
-### `Vercel page` fails to minify
+### Página funcional
 
 <a href="https://wrairtravel.vercel.app/">WR Air Travel</a>
